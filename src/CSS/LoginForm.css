@@ -1,0 +1,11 @@
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: lightgray;
+  font-weight: bold;
+}
