@@ -29,8 +29,13 @@ const Ul = styled.ul`
 export const StyledLink = styled(Link)`
   text-decoration: none;
   color: white;
-  padding-right: 50px;
+  margin-right: 20px;
   text-align: center;
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(81, 203, 238, 1);
+    border-radius: 3px;
+  }
 `;
 
 const HeaderLink = styled(Link)`
