@@ -32,9 +32,10 @@ export const StyledLink = styled(Link)`
   margin-right: 20px;
   text-align: center;
   &:focus {
-    outline: none;
+    outline: yellow solid 1px;
     box-shadow: 0px 0px 10px rgba(81, 203, 238, 1);
     border-radius: 3px;
+    padding: 4px;
   }
 `;
 
